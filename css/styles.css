@@ -489,7 +489,13 @@ body {
   gap: 40px;
   overflow: scroll;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
+
+.other-prizes__cards::-webkit-scrollbar {
+  display: none;
+}
+
 .other-prizes__card {
   min-width: 200px;
   max-height: 400px;
